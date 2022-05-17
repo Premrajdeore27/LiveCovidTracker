@@ -1,0 +1,94 @@
+body{
+ 
+    padding: 0;
+    margin: 0;
+    background-image: url(https://wallpaperaccess.com/full/2296216.jpg);
+    background-repeat: no-repeat;
+   
+    
+}
+.card{
+    display:inline-flex;
+    flex-wrap: wrap;
+    /* background-color:rgb(195, 147, 241); */
+    /* background-color: ; */
+    height: 200px;
+    margin-left: 135px;
+    margin-top: 50px;
+    width: 300px;
+}
+.card__name{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.card__small{
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+}
+span{
+    font-size: 13px;
+    font-weight: 500;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(255, 183, 0);
+}
+h2{
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+    background-color: rgb(196, 50, 50);
+
+}
+h2:active {
+    color: yellow;
+  }
+
+.card:hover{
+    box-shadow: 5px 5px 5px 5px;
+}
+
+@media screen and (min-device-width: 360px) and (max-device-width: 768px) {
+    .card {
+      float: none;
+      margin-left: 80px;
+      width: 170px;
+      height: 170px;
+    }
+    .card__name{
+        font-weight: bolder;
+        font-size: 15px;
+    }
+    .card__small{
+        font-weight: 600;
+        font-size: 20px;
+      
+    }
+    body{
+        background-size: cover;
+
+    }
+  }
+
+  @media screen and (min-device-width: 820px) and (max-device-width: 1180px){
+    body{
+        background-size: cover;
+
+    }
+    .card {
+        float: none;
+        margin-left: 210px;
+
+      }
+  }
+
+  @media screen and (min-device-width: 540px) and (max-device-width: 720px){
+    .card {
+        float: none;
+        margin-left: 120px;
+
+      }
+  }
